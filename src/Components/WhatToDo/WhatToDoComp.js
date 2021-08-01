@@ -5,7 +5,7 @@ import { Container, DataContainer, DataContainerThree, DataContainerTwo, Heading
 export default function WhatToDoComp() {
     return (
         <>
-            <Container>
+            <Container id='prevention' >
                 <DataContainer>
                     <SubHeading>COVID-19</SubHeading>
                     <Heading>

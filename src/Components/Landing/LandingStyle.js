@@ -109,6 +109,9 @@ font-size: 1rem;
     {
         background-color: red;
     }
+&:active{
+    opacity: 0.3;
+}
 @media only screen and (max-width: 900px) {
     margin-top: 1rem;
     font-size: 0.8rem;
@@ -129,6 +132,9 @@ font-weight: bold;
 border-radius: 1.5rem;
 cursor: pointer;
 transition-duration: 550ms;
+&:active{
+    opacity: 0.3;
+}
 &:hover
     {
         background-color: #FB4C47;

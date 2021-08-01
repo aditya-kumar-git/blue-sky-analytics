@@ -5,7 +5,7 @@ import { Card, CardContainer, CardHeading, CardImage, CardVirus, DataContainer, 
 export default function ContagionComp() {
     return (
         <>
-            <LandingContainer>
+            <LandingContainer id='contagion' >
                 <DataContainer>
                     <SubHeading>COVID-19</SubHeading>
                     <Heading>
@@ -45,7 +45,7 @@ export default function ContagionComp() {
                     </CardContainer>
                 </DataContainer>
             </LandingContainer>
-            <LandingContainerTwo>
+            <LandingContainerTwo id='symptoms' >
                 <DataContainer>
                     <SubHeading>COVID-19</SubHeading>
                     <Heading>

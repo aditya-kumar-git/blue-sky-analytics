@@ -73,6 +73,9 @@ color: white;
 border-radius: 5rem;
 transition-duration: 550ms;
 cursor: pointer;
+&:active{
+    opacity: 0.3;
+}
 &:hover{
     background-color: red;
     }
@@ -154,6 +157,9 @@ height: 1rem;
 width: 1rem;
 cursor: pointer;
 transition-duration: 500ms;
+&:active{
+    opacity: 0.3;
+}
 &:hover{
     scale: 1.5;
 }

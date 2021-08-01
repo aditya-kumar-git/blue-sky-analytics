@@ -1,3 +1,4 @@
+import NavBar from "Components/NavBar";
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,10 +9,9 @@ import Home from 'Screens/Home'
 function App() {
   return (
     <Router>
-      {/* <Header /> */}
+      <NavBar/>
       <Switch>
         <Route path="/" component={Home} exact />
-        {/* <Route path="/item/:tem" component={Product} /> */}
       </Switch>
     </Router>
   );
