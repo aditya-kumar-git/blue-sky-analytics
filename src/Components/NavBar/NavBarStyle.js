@@ -119,6 +119,7 @@ color: #FA5652;
 transition-duration: 500ms;
 font-weight: 500;
 cursor: pointer;
+margin-left: 1rem;
 &:hover{
     background-color: #FA5652;
     color: white;
